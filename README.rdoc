@@ -6,8 +6,10 @@ This gem uses the tiny_mce gem's plugin system to install the https://github.com
 
 To use this plugin, clone the source, gem build, gem install, and add the following after the tiny_mce gem config line:
 
-  config.gem 'tinymce' # if you haven't done so already
+  config.gem 'tiny_mce' # if you haven't done so already
   config.gem 'tiny_mce_plugin_imageselector'
+
+You'll want to adjust your config/tiny_mce.yml file to take advantage of the plugin.
 
 The imageselector plugin assumes that your site has imageselector config files at /javascripts/image_selector_config/. See the README at https://github.com/kete/image_selector_tinymce_plugin/ for more details on how they are set up.
 
