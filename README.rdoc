@@ -1,0 +1,20 @@
+= TinyMCE Plugin ImageSelector
+
+This gem uses the tiny_mce gem's plugin system to install the https://github.com/kete/image_selector_tinymce_plugin plugin.
+
+= Usage
+
+To use this plugin, clone the source, gem build, gem install, and add the following after the tiny_mce gem config line:
+
+  config.gem 'tinymce' # if you haven't done so already
+  config.gem 'tiny_mce_plugin_imageselector'
+
+= Credits
+
+tiny_mce_plugin_imageselector was created for the Kete project (http://kete.net.nz) and is maintained by Walter McGinnis <walter a-t katipo dot co dot nz>.
+
+= License
+
+tiny_mce_plugin_imageselector is covered by the MIT License. See LICENSE for more information.
+
+Copyright (C) 2011 Horowhenua Library Trust
