@@ -9,6 +9,8 @@ To use this plugin, clone the source, gem build, gem install, and add the follow
   config.gem 'tinymce' # if you haven't done so already
   config.gem 'tiny_mce_plugin_imageselector'
 
+The imageselector plugin assumes that your site has imageselector config files at /javascripts/image_selector_config/. See the README at https://github.com/kete/image_selector_tinymce_plugin/ for more details on how they are set up.
+
 = Credits
 
 tiny_mce_plugin_imageselector was created for the Kete project (http://kete.net.nz) and is maintained by Walter McGinnis <walter a-t katipo dot co dot nz>.

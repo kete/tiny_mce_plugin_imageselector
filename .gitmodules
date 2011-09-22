@@ -1,0 +1,3 @@
+[submodule "lib/assets/plugins/imageselector"]
+	path = lib/assets/plugins/imageselector
+	url = git@github.com:kete/image_selector_tinymce_plugin.git
