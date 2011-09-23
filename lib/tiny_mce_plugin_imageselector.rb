@@ -2,8 +2,8 @@
 require 'tiny_mce'
 
 # We need to make sure that the TinyMCE Editor sources are already in place
-# or any changes we make may be overwritten later
-TinyMCE.install_or_update_tinymce
+# or any changes we make may be overwritten later, this will return if TinyMCE already initialized
+TinyMCE.initialize
 
 # Create the TinyMCE Imageselector Plugin. Inherit from TinyMCE::Plugin which sets a
 # default self.install method, which installs all files in self.assets_path
