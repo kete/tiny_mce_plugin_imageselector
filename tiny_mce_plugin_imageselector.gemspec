@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "tiny_mce_plugin_imageselector"
-  s.version = "0.0.6"
+  s.version = "0.0.7"
   s.authors = ["Walter McGinnis"]
   s.email = "walter@katipo.co.nz"
   s.homepage = "http://github.com/kete/tiny_mce_plugin_imageselector"
